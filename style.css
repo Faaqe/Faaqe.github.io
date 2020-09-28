@@ -1,0 +1,49 @@
+body{
+	margin: 0;
+	font-family: arial;
+}
+
+header{
+	background: #E91E63;
+	padding: 10px;
+	display: flex;
+	box-shadow: 2px 2px 2px 2px #9E9E9E;
+}
+
+header>a{
+	text-decoration: none;
+	color: #fff;
+	padding: 20px;
+	font-size: 20px;
+}
+
+a:nth-child(1){
+	pointer-events: none;
+}
+
+a:nth-child(1)
+{
+	flex: 1;
+}
+
+.elements{
+	max-width: 1000px;
+	margin: auto;
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.elements>div{
+	height: 200px;
+	width: 400px;
+	margin: auto;
+	margin-top: 50px;
+	box-shadow: 2px 2px 2px 2px #9E9E9E;
+	border-radius: 25px;
+	display: flex;
+}
+
+p{
+	margin: auto;
+	text-align: center;
+}
